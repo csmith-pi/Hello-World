@@ -3,7 +3,7 @@
 void main(void)
 {
   int cnt;
-  while(1)
+  while(cnt < 1000)
   {
    cnt++; 
   }
