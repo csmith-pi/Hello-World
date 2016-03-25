@@ -2,5 +2,9 @@
 
 void main(void)
 {
-  while(1){}
+  int cnt;
+  while(1)
+  {
+   cnt++; 
+  }
 }
