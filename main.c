@@ -1,10 +1,17 @@
 #include "main.h"
 
+int init(void);
+
 void main(void)
 {
-  int cnt;
+  int cnt = init();
   while(cnt < 1000)
   {
-   cnt++; 
+    cnt++; 
   }
+}
+
+int init(void)
+{
+    return 0;
 }
